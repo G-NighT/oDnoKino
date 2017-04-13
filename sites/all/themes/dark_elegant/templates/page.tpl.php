@@ -68,12 +68,16 @@
   <header id="header" role="banner">
     <div class="top clearfix">
       <div class="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home') . ' изменен'; ?>" />
       </a></div>
       <hgroup class="site-name-wrap">
         <h1 class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
 		<div class="socseti">
-			<div class="pluso" data-background="transparent" data-options="medium,round,line,horizontal,nocounter,theme=06" data-services="vkontakte,facebook,twitter,odnoklassniki,google"></div>
+			<a href="https://vk.com/g_night"><img src="http://odnokino/sites/all/themes/dark_elegant/images/icons/vk.png"></a>
+			<a href="https://vk.com/g_night"><img src="http://odnokino/sites/all/themes/dark_elegant/images/icons/facebook.png"></a>
+			<a href="https://vk.com/g_night"><img src="http://odnokino/sites/all/themes/dark_elegant/images/icons/odnoklassniki.png"></a>
+			<a href="https://vk.com/g_night"><img src="http://odnokino/sites/all/themes/dark_elegant/images/icons/google+.png"></a>
+			<a href="http://www.youtube.com/c/GNighTReview"><img src="http://odnokino/sites/all/themes/dark_elegant/images/icons/youtube.png"></a>
 		</div>
 		<?php if ($site_slogan): ?><h2 class="site-slogan"><?php print $site_slogan; ?></h2><?php endif; ?>
       </hgroup>
@@ -210,16 +214,6 @@
       &copy; <?php print t('Сайт разработан командой'); ?> <a href="https://vk.com/g_night" target="_blank">"G-NighT Team"</a> <?php print t('в'); ?> <?php echo date("Y"); ?> <?php print t('году.'); ?> <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
     </div>
   </footer>
-	<script type="text/javascript">(function() {
-	  if (window.pluso)if (typeof window.pluso.start == "function") return;
-	  if (window.ifpluso==undefined) { window.ifpluso = 1;
-		var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-		s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-		s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-		var h=d[g]('body')[0];
-		h.appendChild(s);
-	  }})();
-	</script>
 </div>
 
 
