@@ -68,7 +68,7 @@
   <header id="header" role="banner">
     <div class="top clearfix">
       <div class="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home') . ' изменен'; ?>" />
       </a></div>
       <hgroup class="site-name-wrap">
         <h1 class="site-name"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></h1>
