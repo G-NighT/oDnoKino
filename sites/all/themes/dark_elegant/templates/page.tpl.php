@@ -211,14 +211,7 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="copyright">
-	  <?php print t('Меня била мать'); ?>
 	  &copy; <?php print t('Сайт разработан командой'); ?> <a href="https://vk.com/g_night" target="_blank">"G-NighT Team"</a> <?php print t('в'); ?> <?php echo date("Y"); ?> <?php print t('году.'); ?> <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
     </div>
   </footer>
 </div>
-
-
-
-
-
-
